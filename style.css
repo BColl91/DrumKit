@@ -7,20 +7,24 @@ body {
     margin: 0;
     font-family: sans-serif;
   }
-  .header{
-    display:flex;
-    flex-direction: column;
+  .header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
     justify-content: center;
-    align-self: flex-start;
     color: #69bbc9;
     padding: 1rem;
+    background-color: #333;
+    text-align: center;
   }
-  .drums{
+  .drums {
     width: 300px;
     height: auto;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
+    margin-top: 4rem;
   }
 
   .drum-kit {
