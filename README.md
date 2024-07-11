@@ -1,6 +1,6 @@
 Week 3 DrumKit Challenge
 
-This should present my version of a drumkit; a site that allows you to paly the drums using a set of keys on your keyboard.
+This should present my version of a drumkit; a site that allows you to play the drums using a set of keys on your keyboard.
 
 I made the background dark and dull to keep the focus on the image and keys themselves and chose a dark setting to make it more comfortable to view. The image used is royalty free from pixabay, which shows a drumset. I added the little avatar with text for humour. The keys are wrapped along the bottom of the site to ensure that all can be viewed and used in any window size. 
 
