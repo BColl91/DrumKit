@@ -1,3 +1,4 @@
+/*Anything seperated with '{}' is a class, labeled in hmtl. this file contains the body, header, drum image, the container for the buttons (drum-kit), the container for the keys (key), for when the keys are used (key-active), each seperate key itself (kbd) and the audio itself (sound).*/ 
 body {
     display: flex;
     justify-content: center;
