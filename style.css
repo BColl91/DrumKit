@@ -1,75 +1,76 @@
 /*Anything seperated with '{}' is a class, labeled in hmtl. this file contains the body, header, drum image, the container for the buttons (drum-kit), the container for the keys (key), for when the keys are used (key-active), each seperate key itself (kbd) and the audio itself (sound).*/ 
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #333;
-    margin: 0;
-    font-family: sans-serif;
-  }
-  .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    color: #69bbc9;
-    padding: 1rem;
-    background-color: #333;
-    text-align: center;
-  }
-  .drums {
-    width: 450px;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #333;
+  margin: 0;
+  font-family: sans-serif;
+}
 
-  .drum-kit {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-  }
-  
-  .key {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 10px;
-    height: 10px;
-    border: 0.2rem solid #fff;
-    border-radius: 0.5rem;
-    margin: 0.5rem;
-    font-size: 1.5rem;
-    padding: 1rem 1rem;
-    transition: all 0.07s ease;
-    text-align: center;
-    color: white;
-    background: rgba(0, 0, 0, 0.1);
-  }
-  
-  .key:active, .key.playing {
-    transform: scale(1.1);
-    background-color: #3cc369;
-  }
-  
-  kbd {
-    display: block;
-    font-size: 1rem;
-  }
-  
-  .sound {
-    font-size: 0.5rem;
-    text-transform: uppercase;
-  }
-  
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #69bbc9;
+  padding: 1rem;
+  background-color: #333;
+  text-align: center;
+}
+
+.drums {
+  width: 1000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.drum-kit {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+}
+
+.key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 0.2rem solid #fff;
+  border-radius: 0.5rem;
+  margin: 0.5rem;
+  font-size: 2.5rem !important;
+  padding: 1rem 1rem;
+  transition: all 0.07s ease;
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.key:active, .key.playing {
+  transform: scale(1.1);
+  background-color: #3cc369;
+}
+
+kbd {
+  display: block;
+  font-size: 1rem;
+}
+
+.sound {
+  font-size: 0.5rem;
+  text-transform: uppercase;
+}
